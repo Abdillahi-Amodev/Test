@@ -1,0 +1,155 @@
+.singlePost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2vh;
+  position: relative;
+}
+h1 {
+  margin-bottom: 10px;
+}
+.single-data {
+  /* border: 1px solid black; */
+  box-shadow: 0 0 1px black;
+  margin-bottom: 10px;
+  padding: 15px 15px 50px 15px;
+  width: 600px;
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+}
+.time {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.views {
+  position: absolute;
+  bottom: 10px;
+  left: 65%;
+  background-color: lightgray;
+  padding: 5px;
+  border-radius: 5px;
+}
+.views span {
+  font-weight: bolder;
+}
+.single-data > .title {
+  margin-bottom: 5px;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+.flex {
+  display: flex;
+  /* justify-content: space-around; */
+  /* position: absolute;
+  bottom: 0; */
+}
+.like {
+  /* margin-right: 10px; */
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.dislike {
+  /* margin-right: 10px; */
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+}
+.comment {
+  /* margin-left: 10px; */
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  background-color: lightgray;
+  padding: 5px;
+  border-radius: 5px;
+}
+.comment span {
+  font-weight: bolder;
+}
+.comment-list {
+  box-shadow: 0 0 1px black;
+  position: relative;
+  padding: 1.6rem;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  width: 600px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.comment-list > .display .image {
+  margin-right: 20px;
+  border: 1px solid red;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.input-comment {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 2px;
+  width: 90%;
+  right: 0px;
+  left: 50px;
+  /* border: 1px solid black; */
+}
+.input-comment > form {
+  /* border: 1px solid red; */
+  width: 80%;
+}
+.input-comment > form input {
+  /* position: absolute; */
+  width: 100%;
+  padding: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: lightgray;
+  margin-top: 10px;
+}
+.display {
+  display: flex;
+  margin-bottom: 10px;
+  /* border: 1px solid blue; */
+  /* justify-content: space-between; */
+  padding: 10px;
+  /* border: 1px solid black; */
+  position: relative;
+}
+.display > .dispaly-comment p {
+  background-color: lightgray;
+  padding: 10px 10px;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  position: relative;
+}
+.display > .dispaly-comment p span {
+  font-weight: bolder;
+  margin-bottom: 2px;
+}
+.repondre {
+  display: flex;
+  justify-content: space-between;
+}
+.reply {
+  font-weight: bolder;
+  margin-right: 10px;
+  cursor: pointer;
+}
+/* .time {
+} */
+.dispaly-comment {
+  padding: 5px;
+}

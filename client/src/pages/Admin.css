@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+}
+.form > form {
+  display: flex;
+  flex-direction: column;
+}
+.form > form input {
+  margin-bottom: 10px;
+  width: 300px;
+  height: 35px;
+  border-radius: 10px;
+  outline: none;
+}
+.form > form button {
+  margin-bottom: 10px;
+  width: 300px;
+  height: 35px;
+  border-radius: 10px;
+  color: color;
+  font: 1.2em bolder;
+}
+::placeholder {
+  text-align: center;
+  font-size: 1.2em;
+}

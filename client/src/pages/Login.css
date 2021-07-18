@@ -1,0 +1,47 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 3px black;
+  width: 500px;
+  height: 300px;
+  background-color: white;
+}
+.form > form {
+  display: flex;
+  flex-direction: column;
+}
+.form > form input {
+  margin-bottom: 10px;
+  width: 300px;
+  height: 35px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: lightgray;
+}
+.form > form button {
+  margin-bottom: 10px;
+  width: 300px;
+  height: 35px;
+  border-radius: 10px;
+  color: color;
+  font: 1.2em bolder;
+}
+::placeholder {
+  text-align: center;
+  font-size: 1.2em;
+}
+.error {
+  margin-bottom: 20px;
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+}

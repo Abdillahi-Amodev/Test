@@ -1,0 +1,14 @@
+.recievedReply {
+  background-color: lightgray;
+  padding: 10px;
+  left: 60px;
+  /* width: 20vw; */
+  /* border: 1px solid #ff0000; */
+  margin-bottom: 10px;
+}
+/* .ReplyComment >  */
+
+::placeholder {
+  font-size: normal;
+  font-weight: normal;
+}

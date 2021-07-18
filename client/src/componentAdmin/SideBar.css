@@ -1,0 +1,29 @@
+.sidebar {
+  box-shadow: 0px 0px 3px black;
+  width: 20vw;
+  height: 100vh;
+  background-color: white;
+  margin-top: 0.5px;
+}
+.sidebarlist {
+  list-style-type: none;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  padding-top: 30px;
+}
+.sidebarlist > li {
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  font-size: 1.2rem;
+}
+.sidebarlist > li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em;
+  letter-spacing: 1.5px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin-left: 10px;
+}
